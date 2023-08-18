@@ -1,0 +1,10 @@
+[user]
+	email = 66145089+ally-glenday@users.noreply.github.com
+	name = ally-glenday
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
